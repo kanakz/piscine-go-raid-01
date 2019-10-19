@@ -11,7 +11,7 @@ func Raid1a(x, y int) {
 			z01.PrintRune('o')
 			z01.PrintRune('o')
 			z01.PrintRune('\n')
-		} else if y == 2 && x != 2{
+		} else if y == 2 && x != 2 {
 			z01.PrintRune('o')
 			z01.PrintRune('\n')
 			z01.PrintRune('o')
@@ -43,20 +43,20 @@ func Raid1a(x, y int) {
 }
 
 func main() {
-	Raid1a(1,1)
+	Raid1a(1, 1)
 	z01.PrintRune('\n')
-	Raid1a(2,1)
+	Raid1a(2, 1)
 	z01.PrintRune('\n')
-	Raid1a(1,2)
+	Raid1a(1, 2)
 	z01.PrintRune('\n')
-	Raid1a(2,2)
+	Raid1a(2, 2)
 	z01.PrintRune('\n')
-	Raid1a(3,3)
+	Raid1a(3, 3)
 	z01.PrintRune('\n')
-	Raid1a(1,4)
+	Raid1a(1, 4)
 	z01.PrintRune('\n')
-	Raid1a(4,1)
+	Raid1a(4, 1)
 	z01.PrintRune('\n')
-	Raid1a(5,3)
+	Raid1a(5, 3)
 	z01.PrintRune('\n')
 }
