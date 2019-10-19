@@ -56,7 +56,7 @@ func Raid1a(x, y int) {
 		}
 	} else {
 		for i := 1; i <= y; i++ {
-			z01.PrintRune(10)
+			z01.PrintRune()
 		}
 	}
 }
