@@ -54,6 +54,10 @@ func Raid1a(x, y int) {
 			}
 			z01.PrintRune('\n')
 		}
+	} else {
+		for i := 1; i <= y; i++ {
+			z01.PrintRune('\n')
+		}
 	}
 }
 
