@@ -31,7 +31,7 @@ func Raid1a(x, y int) {
 				}
 				z01.PrintRune(10)
 			}
-		} else if x==2 && y == 2 {
+		} else if x == 2 && y == 2 {
 			z01.PrintRune('o')
 			z01.PrintRune('o')
 			z01.PrintRune('\n')
