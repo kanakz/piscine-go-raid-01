@@ -54,7 +54,9 @@ func Raid1a(x, y int) {
 			}
 			z01.PrintRune('\n')
 		}
-	} else {}
+	} else if x < 0 || y < 0 {
+
+	}
 }
 
 // func main() {
