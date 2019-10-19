@@ -8,7 +8,17 @@ func Raid1e(x, y int) {
 	} else if x >= 1 || y >= 1 {
 		for i := 1; i <= y; i++ {
 			for j := 1; j <= x; j++ {
-				if (i == 1 && j == 1) || (j == x && i == y) {
+				if x == 1 || y == 1 {
+					if i == 1 && j == 1 {
+						z01.PrintRune('A')
+					} else if (i == y && j == 1) || (j == x && i == 1) {
+						z01.PrintRune('C')
+					} else if (i == y && y == 1) || (j == x && x == 1) {
+						z01.PrintRune('B')
+					} else {
+						z01.PrintRune(' ')
+					}
+				} else if (i == 1 && j == 1) || (j == x && i == y) {
 					z01.PrintRune('A')
 				} else if (i == 1 && j == x) || (i == y && j == 1) {
 					z01.PrintRune('C')
