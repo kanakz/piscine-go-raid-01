@@ -11,7 +11,7 @@ func Raid1a(x, y int) {
 				if x == 1 || y == 1 {
 					if i == 1 && j == 1 {
 						z01.PrintRune('/')
-					} else if (i == y && j == 1 ) || (j == x && i == 1) {
+					} else if (i == y && j == 1) || (j == x && i == 1) {
 						z01.PrintRune('\\')
 					} else if (i == y && y == 1) || (j == x && x == 1) {
 						z01.PrintRune('*')
@@ -22,7 +22,7 @@ func Raid1a(x, y int) {
 					z01.PrintRune('/')
 				} else if (i == y && j == 1) || (j == x && i == 1) {
 					z01.PrintRune('\\')
-				} else if j == 1 || j == x || i == 1 || i == y{
+				} else if j == 1 || j == x || i == 1 || i == y {
 					z01.PrintRune('*')
 				} else {
 					z01.PrintRune(' ')
