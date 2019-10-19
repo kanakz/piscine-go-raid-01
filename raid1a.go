@@ -1,4 +1,4 @@
-package main
+package piscine
 
 import "github.com/01-edu/z01"
 
@@ -59,7 +59,6 @@ func Raid1a(x, y int) {
 }
 
 func main() {
-	Raid1a(1, 1)
 	z01.PrintRune('\n')
 	Raid1a(2, 1)
 	z01.PrintRune('\n')
