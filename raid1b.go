@@ -2,7 +2,7 @@ package piscine
 
 import "github.com/01-edu/z01"
 
-func Raid1a(x, y int) {
+func Raid1b(x, y int) {
 	if x < 0 || y < 0 {
 
 	} else if x >= 1 || y >= 1 {
@@ -35,26 +35,26 @@ func Raid1a(x, y int) {
 
 // func main() {
 // 	z01.PrintRune('\n')
-// 	Raid1a(2, 1)
+// 	Raid1b(2, 1)
 // 	z01.PrintRune('\n')
-// 	Raid1a(1, 2)
+// 	Raid1b(1, 2)
 // 	z01.PrintRune('\n')
-// 	Raid1a(2, 2)
+// 	Raid1b(2, 2)
 // 	z01.PrintRune('\n')
-// 	Raid1a(3, 3)
+// 	Raid1b(3, 3)
 // 	z01.PrintRune('\n')
-// 	Raid1a(-1, 3)
+// 	Raid1b(-1, 3)
 // 	z01.PrintRune('\n')
-// 	Raid1a(1, 4)
+// 	Raid1b(1, 4)
 // 	z01.PrintRune('\n')
-// 	Raid1a(4, 1)
+// 	Raid1b(4, 1)
 // 	z01.PrintRune('\n')
-// 	Raid1a(5, 3)
+// 	Raid1b(5, 3)
 // 	z01.PrintRune('\n')
-// 	Raid1a(2, 19)
+// 	Raid1b(2, 19)
 // 	z01.PrintRune('\n')
-// 	Raid1a(20, 2)
+// 	Raid1b(20, 2)
 // 	z01.PrintRune('\n')
-// 	Raid1a(-1, 6)
+// 	Raid1b(-1, 6)
 // 	z01.PrintRune('\n')
 // }
