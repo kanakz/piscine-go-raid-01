@@ -54,35 +54,31 @@ func Raid1a(x, y int) {
 			}
 			z01.PrintRune('\n')
 		}
-	} else {
-		for i := 1; i <= y; i++ {
-			z01.PrintRune('\n')
-		}
-	}
+	} else {}
 }
 
-func main() {
-	z01.PrintRune('\n')
-	Raid1a(2, 1)
-	z01.PrintRune('\n')
-	Raid1a(1, 2)
-	z01.PrintRune('\n')
-	Raid1a(2, 2)
-	z01.PrintRune('\n')
-	Raid1a(3, 3)
-	z01.PrintRune('\n')
-	Raid1a(-1, 3)
-	z01.PrintRune('\n')
-	Raid1a(1, 4)
-	z01.PrintRune('\n')
-	Raid1a(4, 1)
-	z01.PrintRune('\n')
-	Raid1a(5, 3)
-	z01.PrintRune('\n')
-	Raid1a(2, 19)
-	z01.PrintRune('\n')
-	Raid1a(20, 2)
-	z01.PrintRune('\n')
-	Raid1a(-1, 2)
-	z01.PrintRune('\n')
-}
+// func main() {
+// 	z01.PrintRune('\n')
+// 	Raid1a(2, 1)
+// 	z01.PrintRune('\n')
+// 	Raid1a(1, 2)
+// 	z01.PrintRune('\n')
+// 	Raid1a(2, 2)
+// 	z01.PrintRune('\n')
+// 	Raid1a(3, 3)
+// 	z01.PrintRune('\n')
+// 	Raid1a(-1, 3)
+// 	z01.PrintRune('\n')
+// 	Raid1a(1, 4)
+// 	z01.PrintRune('\n')
+// 	Raid1a(4, 1)
+// 	z01.PrintRune('\n')
+// 	Raid1a(5, 3)
+// 	z01.PrintRune('\n')
+// 	Raid1a(2, 19)
+// 	z01.PrintRune('\n')
+// 	Raid1a(20, 2)
+// 	z01.PrintRune('\n')
+// 	Raid1a(-1, 2)
+// 	z01.PrintRune('\n')
+// }
