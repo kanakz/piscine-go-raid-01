@@ -1,4 +1,4 @@
-package piscine
+package main
 
 import "github.com/01-edu/z01"
 
@@ -31,7 +31,7 @@ func Raid1a(x, y int) {
 				}
 				z01.PrintRune(10)
 			}
-		} else {
+		} else if x==2 && y == 2 {
 			z01.PrintRune('o')
 			z01.PrintRune('o')
 			z01.PrintRune('\n')
@@ -54,7 +54,6 @@ func Raid1a(x, y int) {
 			}
 			z01.PrintRune('\n')
 		}
-	} else {
 	}
 }
 
@@ -80,6 +79,6 @@ func main() {
 	z01.PrintRune('\n')
 	Raid1a(20, 2)
 	z01.PrintRune('\n')
-	Raid1a(-1, 3)
+	Raid1a(-1, 2)
 	z01.PrintRune('\n')
 }
