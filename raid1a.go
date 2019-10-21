@@ -23,7 +23,7 @@ func Raid1a(x, y int) {
 	}
 }
 
-func main() {
+/*func main() {
 	z01.PrintRune('\n')
 	Raid1a(2, 1)
 	z01.PrintRune('\n')
@@ -47,4 +47,4 @@ func main() {
 	z01.PrintRune('\n')
 	Raid1a(-1, 6)
 	z01.PrintRune('\n')
-}
+}*/
